@@ -1,0 +1,83 @@
+
+       @keyframes fire {
+         0% {
+    color: #B20000;
+    margin: 200px auto;
+               font-size: 60px; 
+     text-shadow:
+             0 -2px 5px #FF2200,
+             6px -5px 7px #A90C00,
+             2px -7px 12px #f80,
+             6px -9px 19px #f20;
+           }
+           50% {
+             text-shadow:
+             0 -2px 5px #FF0000,
+             4px -6px 8px #B20000,
+             -4px -8px 13px #f80,
+             4px -10px 20px #f20;  
+           }
+           100% {
+            color: #B20000;
+            margin: 200px auto;
+            font-size: 60px; 
+           text-shadow:
+             0 -2px 4px #B20000,
+             -2px -5px 7px #A90C00,
+             2px -7px 12px #f80,
+             -2px -9px 19px #f20;
+           }
+       }
+       .fire {
+           animation-timing-function: linear;
+           animation: fire 0.7s infinite;
+           animation-direction: alternate;
+       }
+       .fire:before {
+                content: "+998998740398";
+       }
+       
+       
+       
+       
+       
+       
+       
+       @keyframes ice {
+         0% {
+    color: #77FFFF;
+    margin: 200px auto;
+               font-size: 60px; 
+     text-shadow:
+             0 -2px 5px #00FFFF,
+             6px -5px 7px #A6FFFF,
+             2px -7px 12px #6BE2CE,
+             6px -9px 19px #FFFFFF;
+           }
+           50% {
+             text-shadow:
+              0 -2px 5px #00FFFF,
+             5px -5px 7px #A6FFFF,
+             1px -7px 12px #6BE2CE,
+             8px -9px 19px #FFFFFF;
+           }
+           100% {
+    color: #77FFFF;
+            margin: 200px auto;
+            font-size: 60px; 
+           text-shadow:
+              0 -2px 5px #00FFFF,
+             4px -5px 7px #A6FFFF,
+             0 -7px 12px #6BE2CE,
+             10px -9px 19px #FFFFFF;
+           }
+       }
+       .ice {
+           animation-timing-function: linear;
+           animation: ice 0.7s infinite;
+           animation-direction: alternate;
+       }
+       .ice:before {
+                content: "+998998740398";
+       }
+       
